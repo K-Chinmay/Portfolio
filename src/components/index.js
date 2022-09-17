@@ -1,3 +1,5 @@
 import Hero from "./Hero";
 import Navbar from "./Navbar";
-export { Hero, Navbar };
+import SkillCard from "./SkillCard";
+import About from "./About";
+export { Hero, Navbar, SkillCard, About };

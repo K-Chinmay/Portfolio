@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./style";
-import { Hero, Navbar } from "./components";
+import { Hero, Navbar, About } from "./components";
 
 const App = () => {
   return (
@@ -13,6 +13,11 @@ const App = () => {
       <div className={`${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
+        </div>
+      </div>
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <About />
         </div>
       </div>
     </div>

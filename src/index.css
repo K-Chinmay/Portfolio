@@ -11,3 +11,16 @@
 .bg-hero {
   background-color: #2686f0;
 }
+
+.skillcard-container {
+  margin-right: 0px;
+}
+
+.skillcard {
+  background: transparent;
+}
+
+.skillcard:hover {
+  background: #f7f3f3;
+  box-shadow: 20px 20px 50px #ebe7e7, -20px -20px 50px #ffffff;
+}
